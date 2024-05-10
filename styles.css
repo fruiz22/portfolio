@@ -1,0 +1,161 @@
+
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.acerca-de p{
+    display: flex;
+    font-size: 1.2em;
+    margin: 2em 50em 1em 50em;
+    padding: 0em 0em 0em 0em;
+}
+.acerca-de h1{
+    display: flex;
+    color: orange;
+    font-size: 2em;
+    margin: 1em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    justify-content: center;
+    font-family: "Indie Flower", cursive;
+    
+}
+
+header{
+    border-width: 0.2em;
+    background-color: rgba(32, 194, 145, 0.61);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.4em solid orange;
+    border
+}
+
+header .Logo{
+    display: flex;
+    justify-self: center;
+    margin: 0em 0em 0em 47em;
+    position: relative;
+}
+
+header nav ul{
+    display: flex;
+    gap: 6em;
+    padding: 1em 1em;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 0.3em;
+    border-radius: 1em;
+    font-size: 1.5em;
+}
+
+header a i{
+    color: white;
+    padding: 0.5em;
+    font-size: 2.2em;
+}
+
+.Logo img{
+    width: 8em;
+}
+
+.Carrusel{
+    display: flex;
+   position:relative;
+   justify-content: center;
+   margin: 5em 0em 0em 0em;
+}
+
+.Carrusel img{
+    width: 80em;
+}
+
+.productos h{
+    display: flex;
+    color: rgba(32, 194, 145, 0.61);
+    font-size: 2em;
+    margin: 2em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    justify-content: center;
+    font-family: "Indie Flower", cursive;
+    
+}
+
+.opciones{
+    margin: 5em 0em 0em 0em;
+  display: flex;
+  justify-content: center;
+  gap: 8em;
+}
+
+.kilo img{
+    width: 10em;
+} 
+
+.palito img{
+    width: 10em;
+} 
+
+.barra img{
+    width: 10em;
+} 
+
+.pedidosya{
+    display: flex;
+    position: fixed;
+    justify-content: end;
+}
+
+.pedidosya img{
+width: 6em;
+border-radius: 2em;
+}
+
+#check {
+    display: none;
+  }
+
+  .checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+@media (max-width: 768px) {
+    header{
+        border-width: 0.2em;
+        background-color: rgba(38, 14, 104, 0.61);
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.4em solid rgb(0, 255, 13);
+    }
+    body{
+        font-family: "Noto Sans", sans-serif;background-color: rgb(146, 21, 21);
+        margin: 0;
+        padding: 0;
+    }
+    .checkbtn{
+        display: block;
+    }
+
+  }
